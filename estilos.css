@@ -97,6 +97,11 @@ blockquote {
     transition: background 150ms ease;
 }
 .back-button:hover { background: #f8e6ec; }
+.next-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-top: 20px; }
+.continue-button { background: var(--rose); color: #fffaf7; font-family: inherit; }
+.continue-button:hover { background: #7b304a; }
+.continue-button:disabled { opacity: 0.55; cursor: not-allowed; }
+.continue-button:disabled:hover { background: var(--rose); }
 :focus-visible { outline: 3px solid var(--rose); outline-offset: 5px; }
 .closing-note { margin: 24px 0 0; text-align: center; font-size: 10px; }
 @media (max-width: 540px) {

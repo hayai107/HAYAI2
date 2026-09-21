@@ -14,7 +14,7 @@
         rel="stylesheet"
     >
 
-    <link rel="stylesheet" href="estilos2.css">
+    <link rel="stylesheet" href="estilos.css">
     <link rel="icon" type="image/x-icon" href="img2.ico">
 </head>
 
@@ -25,7 +25,7 @@
 
         <!-- ENCABEZADO -->
 
-        <header class="letter-header">
+        <header class="letter-header" id="carta">
 
             <span class="heart-seal" aria-hidden="true">
                 ♥
@@ -319,6 +319,17 @@
 
         </nav>
 
+
+        <nav class="button-container next-actions" aria-label="Navegación de la carta">
+            <a href="#carta" class="back-button">
+                <span aria-hidden="true">↑</span>
+                Volver a la carta
+            </a>
+            <button type="button" class="back-button continue-button" disabled>
+                CONTINUAR
+                <span aria-hidden="true">→</span>
+            </button>
+        </nav>
 
         <p class="closing-note">
             Nuestra historia, en mis palabras y contigo.
